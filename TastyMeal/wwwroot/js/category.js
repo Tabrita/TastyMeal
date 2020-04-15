@@ -39,8 +39,7 @@ function LoadList() {
     });
 }
 
-function Delete(url) {
-    debugger;
+function Delete(url) {    
     swal({
         title: "Are you sure you want to delete?",
         text: "You will not be able to restore the data",

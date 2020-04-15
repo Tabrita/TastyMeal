@@ -3,9 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TastyMeal.DataAccess.Data.Repository.Interfaces;
 using TastyMeal.Models;
 
-namespace TastyMeal.DataAccess.Data.Repository.Interfaces
+namespace TastyMeal.DataAccess.Data.Repository
 {
     public class FoodTypeRepository : Repository<FoodType>, IFoodTypeRepository
     {

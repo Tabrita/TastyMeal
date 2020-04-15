@@ -8,6 +8,8 @@ namespace TastyMeal.DataAccess.Data.Repository.Interfaces
     {
         ICategory Category { get; }
         IFoodTypeRepository FoodType { get; }
+
+        IMenuItemRepository MenuItem { get; }
         void Save();
     }
 }

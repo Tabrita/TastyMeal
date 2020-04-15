@@ -15,10 +15,13 @@ namespace TastyMeal.DataAccess.Data.Repository
             _dbContext = dbContext;
             Category = new CategoryRepository(_dbContext);
             FoodType = new FoodTypeRepository(_dbContext);
+            MenuItem = new MenuItemRepository(_dbContext);
         }
         public ICategory Category { get; private set; }
 
         public IFoodTypeRepository FoodType { get; private set; }
+
+        public IMenuItemRepository MenuItem { get; private set; }
 
         public void Dispose()
         {
